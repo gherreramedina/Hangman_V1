@@ -28,7 +28,7 @@ function elegirPokemon(){
 let errores;
 let aciertos;
 let listaLetrasUsadas;
-let imagenesDelPersonaje = ["/vodoo/1.png","/vodoo/2.png","/vodoo/3.png","/vodoo/4.png","/vodoo/5.png","/vodoo/6.png","/vodoo/7.png"];
+let imagenesDelPersonaje = ["./vodoo/1.png","./vodoo/2.png","./vodoo/3.png","./vodoo/4.png","./vodoo/5.png","./vodoo/6.png","./vodoo/7.png"];
 let letraIngresada;
 
 
@@ -125,7 +125,7 @@ function actualizarError(){
 function actualizarAciertos(){
     aciertos = aciertos + 1;
     if(aciertos == letrasDelPokemon.length){
-        alert("Fin del juego");
+        alert("Ganaste");
         botonEmpezar.style.display = "block";
         botonIngresarLetra.style.display = "none";
 
