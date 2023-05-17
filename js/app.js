@@ -125,6 +125,8 @@ function actualizarError(){
 function actualizarAciertos(){
     aciertos = aciertos + 1;
     let maxpoints =letrasDelPokemon.length; 
+    console.log(maxpoints);
+    console.log(aciertos);
     if(aciertos == maxpoints){
         alert("Ganaste");
         botonEmpezar.style.display = "block";
