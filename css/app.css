@@ -1,0 +1,81 @@
+body {
+    background-color: #282144;
+    color: #fff;
+    font-family: 'SF Pixelate', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#boton_empezar {
+    margin-top: 20px;
+    font-family: 'SF Pixelate', sans-serif;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #6a1ece;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#boton_ingresar_letra {
+    margin-top: 20px;
+    font-family: 'SF Pixelate', sans-serif;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background: #bd6d13;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+#trapo {
+    height: 400px;
+    background: #1c0b33;
+    border-radius: 8px;
+    box-shadow: inset 0px 4px #18092b
+}
+
+
+#contenedor_palabra {
+    margin-top: 40px;
+}
+
+#letras_usadas {
+    margin-top: 10px;
+}
+
+
+
+.escondidas{
+    color:transparent;
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+
+.letras{
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    
+}
