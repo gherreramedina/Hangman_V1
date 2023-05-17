@@ -124,7 +124,8 @@ function actualizarError(){
 
 function actualizarAciertos(){
     aciertos = aciertos + 1;
-    if(aciertos == letrasDelPokemon.length){
+    let maxpoints =letrasDelPokemon.length; 
+    if(aciertos == maxpoints){
         alert("Ganaste");
         botonEmpezar.style.display = "block";
         botonIngresarLetra.style.display = "none";
