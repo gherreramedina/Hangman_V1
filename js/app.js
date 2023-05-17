@@ -124,6 +124,12 @@ function actualizarError(){
 
 function actualizarAciertos(){
     aciertos = aciertos + 1;
+    if(aciertos == letrasDelPokemon.length){
+        alert("Fin del juego");
+        botonEmpezar.style.display = "block";
+        botonIngresarLetra.style.display = "none";
+
+    }
 };
 
 
